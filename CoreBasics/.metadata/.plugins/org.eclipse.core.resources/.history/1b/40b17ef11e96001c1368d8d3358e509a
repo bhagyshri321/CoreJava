@@ -1,0 +1,19 @@
+
+public class TestSetGetter {
+	public static void main(String[] args) {
+		
+	 SetGetter s = new  SetGetter( "pRIYAL", "Mig", 25 );
+		
+	
+	
+	 
+	 s.getName();
+	 s.getAge();
+	 s.getAdd();
+	 
+	 System.out.println(s.getName() + "  " + s.getAdd() + "   "+  s.getAge()  );
+		 
+ }}
+	
+
+

@@ -1,0 +1,8 @@
+package com.CollectionFamework;
+
+public class Hashcode {
+public static void main(String[] args) {
+	Object b = new Object();
+	System.out.println(b.hashCode());
+}
+}

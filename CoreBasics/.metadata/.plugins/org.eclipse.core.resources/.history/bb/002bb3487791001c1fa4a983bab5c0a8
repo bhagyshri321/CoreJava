@@ -1,0 +1,21 @@
+package com.CollectionFamework;
+
+import java.util.Comparator;
+
+public class TestComparator implements Comparator<Marksheet> {
+
+	@Override
+	public int compare(Marksheet o, Marksheet o1) {
+		// TODO Auto-generated method stub
+            return o.getLname().compareTo(o1.getLname());
+            }}
+	
+	
+	
+	
+	
+		
+	
+	
+
+

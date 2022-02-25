@@ -1,0 +1,19 @@
+package com.InputOutput;
+
+import java.io.File;
+
+public class OnlyFiles {
+
+	public static void main(String[] args) {
+		  
+		File f = new File(" C:\\\\Users\\\\hp\\\\Downloads ");
+		File Directory = new File ( args[0]) ;
+		String[] List = Directory.list();
+		for(int i= 0;i<List.length;i++) {
+			File f1 = new File (" C:\\\\\\\\Users\\\\\\\\hp\\\\\\\\Downloads", List[i]);
+			if (f.isFile()) {
+				System.out.println(f1);
+			}
+		}
+	}
+}

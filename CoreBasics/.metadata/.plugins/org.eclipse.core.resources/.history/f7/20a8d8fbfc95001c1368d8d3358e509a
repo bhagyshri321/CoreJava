@@ -1,0 +1,15 @@
+
+public class TestSetGetter {
+	public static void main(String[] args) {
+		
+		SetGetter s = new SetGetter("Priyal", "Mig colony", 25 ) ;
+		
+		s.setAdd("priyal");
+		 System.out.println(s);
+			
+			
+			
+		}
+	}
+
+

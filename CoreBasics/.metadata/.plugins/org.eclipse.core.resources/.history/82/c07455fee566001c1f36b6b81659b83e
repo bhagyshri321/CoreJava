@@ -1,0 +1,15 @@
+package in.co.rays;
+ public class First{
+	 public static void main(String[] args) {
+		
+	
+	 int a= 45;
+	 int b= 56;
+	 if (a>b) {
+		 System.out.println(a+"is greater than "+b);
+	 }
+ }
+ }
+	
+	
+

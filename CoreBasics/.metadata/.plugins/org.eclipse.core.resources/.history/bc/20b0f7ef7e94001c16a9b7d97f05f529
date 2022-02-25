@@ -1,0 +1,13 @@
+package com.InputOutput;
+
+import java.io.File;
+
+public class OnlyFiles2 {
+	public static void main(String[] args) {
+		File directory = new File("C:\\Users\\hp\\Documents\\New folder");
+		
+		File []
+		
+	}
+
+}

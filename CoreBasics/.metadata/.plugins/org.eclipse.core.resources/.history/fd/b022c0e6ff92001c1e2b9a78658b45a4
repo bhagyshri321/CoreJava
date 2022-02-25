@@ -1,0 +1,19 @@
+package com.InputOutput;
+
+import java.io.File;
+
+public class OnlyFiles {
+
+	public static void main(String[] args) {
+		  
+		File Directory = new File(" C:\\Rays\\CoreBasics\\Core ");
+		
+		File[] list = Directory.listFiles();
+		for(int i= 0;i<list.length;i++) {
+			
+			if (list[i].isFile()) {
+				System.out.println((i+1)+ ":"+list[i].getName());
+			}
+		}
+	}
+}

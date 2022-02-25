@@ -1,0 +1,11 @@
+package com.Practice;
+
+import java.util.Comparator;
+
+public class TestComparator implements Comparator <Marksheet>{
+     
+    public int compare(Marksheet m1, Marksheet m2) {
+	
+	return m1.getFname().compareTo(m2.getFname());
+}
+}

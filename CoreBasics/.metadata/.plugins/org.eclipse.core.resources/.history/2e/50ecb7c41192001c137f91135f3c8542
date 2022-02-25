@@ -1,0 +1,15 @@
+package com.Practice;
+
+public class TestMarkshhet {
+	public static void main(String[] args) {
+		
+		Marksheet m1 = new Marksheet();
+		 m1.setFname(fname);
+		 m1.setFname(lname);
+		 m1.setFname(rollno);
+		 m1.setFname(Phy);
+		 m1.setFname(Chem);
+
+	}
+
+}

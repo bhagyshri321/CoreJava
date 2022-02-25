@@ -1,0 +1,14 @@
+package com.InputOutput;
+
+import java.io.File;
+
+public class TestInputOutput {
+	public static void main(String[] args) {
+		
+		File f = new File("C:\\Users\\hp\\Downloads ");
+		System.out.println(f.exists());
+		System.out.println(f.getName());
+	}
+	 
+
+}
